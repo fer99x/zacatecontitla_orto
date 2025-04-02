@@ -2,14 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>Zacatecontitla - Ortomosaico</title>
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <base target="_blank">
 <link rel="stylesheet" type="text/css" href="./Qgis2threejs.css">
 <script src="./threejs/three.min.js"></script>
 <script src="./threejs/OrbitControls.js"></script>
 <script src="./threejs/ViewHelper.js"></script>
-<script src="./tweenjs/tween.js"></script>
 <script src="./Qgis2threejs.js"></script>
 <script src="./dat-gui/dat.gui.min.js"></script>
 <script src="./dat-gui_panel.js"></script>
@@ -87,7 +86,7 @@
 <div id="progress"><div id="progressbar"></div></div>
 
 <!-- header and footer -->
-<div id="header"></div>
+<div id="header">Zacatecontitla, Tepoztlán, Morelos</div>
 <div id="footer"></div>
 
 <!-- animation -->
@@ -99,11 +98,10 @@
 </div>
 
 <script>
-Q3D.Config.viewpoint = {lookAt:{x:491713.3424518677,y:2095943.0717492253,z:1342.8472885007332},pos:{x:491543.9683510879,y:2095404.011256055,z:1776.3771999259575}};
+Q3D.Config.viewpoint = {lookAt:{x:491729.61563930917,y:2095931.9763805936,z:1411.4855086641562},pos:{x:491514.7013216225,y:2095355.4670725751,z:1698.308044235756}};
 Q3D.Config.localMode = true;
-Q3D.Config.animation.enabled = true;
 Q3D.Config.northArrow.enabled = true;
-Q3D.Config.northArrow.color = 0x666666;
+Q3D.Config.northArrow.color = 0x01ff05;
 
 var container = document.getElementById("view"),
     app = Q3D.application,
